@@ -83,7 +83,7 @@ export default function PricingPlanSection() {
                 {pricingPlans.map((plan, index) => (
                     <div
                         key={index}
-                        className={`w-full group bg-white/10 backdrop-blur-sm hover:bg-white/20 p-10 transition-transform duration-300 flex flex-col justify-between
+                        className={`w-full group bg-white/10 backdrop-blur-sm hover:bg-white/20 p-5 lg:p-10 transition-transform duration-300 flex flex-col justify-between
                         ${plan.name === "Growth" ? "border-t-2 border-gold" : ""}`}
                     >
                         {/* Top content */}
@@ -104,7 +104,7 @@ export default function PricingPlanSection() {
                         </div>
 
                         {/* Button at the bottom */}
-                        <button className={`mt-10 w-full py-5 text-2xl font-light
+                        <button className={`mt-10 w-full py-3 px-5 lg:py-5 lg:px-10 text-xl lg:text-2xl font-light
                             transition-colors ${plan.name === "Growth" ? "bg-white text-gold hover:bg-gold hover:text-white" : "bg-gold text-white hover:bg-white hover:text-gold"}`}
                         >
                             Choose Plan
@@ -123,7 +123,7 @@ export default function PricingPlanSection() {
                             className="bg-white p-10 flex justify-between items-center gap-10"
                         >
                             <p className="text-lg lg:text-2xl font-semibold text-black">{addon.service}</p>
-                            <p className="text-md lg:text-xl font-light text-gray-700">From
+                            <p className="text-wrap inline-flex flex-wrap text-md lg:text-xl font-light text-gray-700">From
                                 <span className="ml-2 text-xl lg:text-4xl">{addon.price}</span>
                             </p>
                         </div>
