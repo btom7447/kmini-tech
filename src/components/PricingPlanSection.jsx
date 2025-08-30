@@ -94,7 +94,7 @@ export default function PricingPlanSection() {
                             <h3 className="my-5 text-3xl lg:text-6xl font-extrabold mb-6">{plan.price}</h3>
                             <ul className="mt-5 space-y-5 text-gray-300">
                                 {plan.features.map((feature, i) => (
-                                    <li key={i} className="flex items-start gap-2 text-xl">
+                                    <li key={i} className="flex items-start gap-2 text-md lg:text-xl">
                                         <span className="text-gold">
                                             <CheckCheckIcon size={20} />
                                         </span> {feature}
@@ -122,9 +122,9 @@ export default function PricingPlanSection() {
                             key={index}
                             className="bg-white p-10 flex justify-between items-center gap-10"
                         >
-                            <p className="text-2xl font-semibold text-black">{addon.service}</p>
-                            <p className="text-xl font-light text-gray-700">From
-                                <span className="ml-2 text-3xl lg:text-4xl">{addon.price}</span>
+                            <p className="text-lg lg:text-2xl font-semibold text-black">{addon.service}</p>
+                            <p className="text-md lg:text-xl font-light text-gray-700">From
+                                <span className="ml-2 text-xl lg:text-4xl">{addon.price}</span>
                             </p>
                         </div>
                     ))}

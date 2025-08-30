@@ -72,10 +72,22 @@ const HamburgerMenu = ({ isOpen, setIsOpen }) => {
             >
               <div className="flex flex-col items-center gap-4">
                 <Link
-                  href="/solutions/web-development"
+                  href="/solutions/data-analysis"
                   onClick={() => setIsOpen(false)}
                 >
-                  Web Development
+                  Data Analysis
+                </Link>
+                <Link
+                  href="/solutions/designs"
+                  onClick={() => setIsOpen(false)}
+                >
+                  Designs
+                </Link>
+                <Link
+                  href="/solutions/digital-marketing"
+                  onClick={() => setIsOpen(false)}
+                >
+                  Digital Marketing
                 </Link>
                 <Link
                   href="/solutions/mobile-app"
@@ -84,16 +96,10 @@ const HamburgerMenu = ({ isOpen, setIsOpen }) => {
                   Mobile Apps
                 </Link>
                 <Link
-                  href="/solutions/design"
+                  href="/solutions/web-development"
                   onClick={() => setIsOpen(false)}
                 >
-                  UI/UX Design
-                </Link>
-                <Link
-                  href="/solutions/marketing"
-                  onClick={() => setIsOpen(false)}
-                >
-                  Marketing
+                  Web Development
                 </Link>
               </div>
             </div>

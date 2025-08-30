@@ -108,9 +108,9 @@ export default function Header() {
                                 width={160}
                                 height={80}
                                 priority
-                                className="h-auto w-30 lg:h-20 lg:w-40 object-contain"
+                                className="-ml-2 h-auto w-30 lg:h-20 lg:w-40 object-contain"
                             />
-                            <h1 className="-ml-7 text-2xl lg:text-4xl font-extralight">
+                            <h1 className="-ml-5 text-2xl lg:text-4xl font-extralight">
                                 Kmini Technologies
                             </h1>
                         </Link>
@@ -143,8 +143,8 @@ export default function Header() {
                     >
                         <div className="flex justify-between items-center">
                             <Link href="/" className="flex items-center">
-                                <Image src="/images/logo.png" alt="Kmini Tech" width={20} height={20} unoptimized className="h-auto w-30 lg:h-20 lg:w-40 object-contain" />
-                                <h5 className="-ml-7 text-2xl lg:text-4xl font-extralight">Kmini Technologies</h5>
+                                <Image src="/images/logo.png" alt="Kmini Tech" width={20} height={20} unoptimized className="-ml-2 h-auto w-30 lg:h-20 lg:w-40 object-contain" />
+                                <h5 className="-ml-5 text-2xl lg:text-4xl font-extralight">Kmini Technologies</h5>
                             </Link>
 
                             {/* Desktop nav */}

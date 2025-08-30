@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function SolutionsCard({ id, title, subtitle, benefits, img, link }) {
     return (
         <div
-            className="w-full group bg-white/10 backdrop-blur-sm hover:bg-white/20 p-10 transition-transform duration-300 relative"
+            className="w-full group bg-white/10 backdrop-blur-sm hover:bg-white/20 p-5 lg:p-10 transition-transform duration-300 relative"
             role="region"
             aria-labelledby={`solution-title-${id}`}
         >

@@ -61,7 +61,7 @@ export default function HeroSection() {
     };
 
     return (
-        <section className="pt-70 lg:pt-0 w-screen h-fit lg:h-screen relative bg-black text-white overflow-hidden">
+        <section className="pt-60 pb-10 lg:pb-0 lg:pt-0 w-screen h-fit lg:h-screen relative bg-black text-white overflow-hidden">
             {/* Background image */}
             <div
                 className="absolute inset-0 bg-center bg-fixed bg-cover opacity-20 z-0"
@@ -95,7 +95,7 @@ export default function HeroSection() {
                                     <h1
                                         data-aos="fade-right"
                                         data-aos-delay="200"
-                                        className="text-4xl lg:text-6xl font-bold mb-6"
+                                        className="text-3xl lg:text-6xl font-bold mb-6"
                                     >
                                         {slide.title}
                                     </h1>
@@ -107,19 +107,19 @@ export default function HeroSection() {
                                         {slide.subtitle}
                                     </p>
                                     <div
-                                        className="space-x-5"
+                                        className="gap-5 flex flex-col lg:flex-row"
                                         data-aos="fade-up"
                                         data-aos-delay="800"
                                     >
                                         <Link
                                             href={slide.link}
-                                            className="py-5 px-10 bg-gold text-white text-xl hover:bg-white hover:text-gold"
+                                            className="py-3 px-5 lg:py-5 lg:px-10 bg-gold text-white text-lg lg:text-xl hover:bg-white hover:text-gold"
                                         >
                                             See our work
                                         </Link>
                                         <button
                                             type="button"
-                                            className="py-5 px-10 text-gold text-xl border-1 border-gold hover:border-white hover:text-white"
+                                            className="py-3 px-5 lg:py-5 lg:px-10 text-gold text-lg lg:text-xl border-1 border-gold hover:border-white hover:text-white"
                                         >
                                             Book a Call
                                         </button>

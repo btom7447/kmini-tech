@@ -96,7 +96,7 @@ export default function SolutionsSection() {
             />
             
             <div className="grid grid-col-1 lg:grid-cols-2 items-center gap-10">
-                <h5 className="text-4xl lg:text-6xl font-bold mb-6">Our Tech Solutions, Your Business Growth</h5>
+                <h5 className="text-4xl lg:text-6xl font-bold mb-2 lg:mb-6">Our Tech Solutions, Your Business Growth</h5>
                 <h6 className="text-lg lg:text-2xl mb-6">From startups to enterprises, we deliver tailored solutions that help brands thrive in the digital age</h6>
             </div>
             {/* Solutions grid */}
