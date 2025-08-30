@@ -1,0 +1,114 @@
+{
+    "projectsData": [
+        {
+            "title": "PlumbEasy E-Commerce",
+            "description": "An all-in-one plumbing supplies store built for scale.",
+            "link": "/projects/plumbeasy",
+            "images": ["/images/projects/placeholder1.jpg", "/images/projects/placholder2.jpg"],
+            "solutionCategory": "web development",
+            "moreDescription": "PlumbEasy needed a modern online shop for plumbing tools and materials. We designed and developed a responsive e-commerce platform with real-time inventory, secure checkout, and a clean UI that boosted sales conversions.",
+            "client": "PlumbEasy Supplies",
+            "year": 2024,
+            "techStack": ["Next.js", "Node.js", "Stripe", "TailwindCSS"]
+        },
+        {
+            "title": "FitTrack Mobile",
+            "description": "A fitness companion app to track workouts and nutrition.",
+            "link": "/projects/fittrack",
+            "images": ["/images/projects/placeholder3.jpg", "/images/projects/placeholder3.jpg"],
+            "solutionCategory": "mobile app development",
+            "moreDescription": "We built FitTrack to help users plan workouts, monitor nutrition, and set goals. The app includes push notifications, offline mode, and seamless syncing across devices.",
+            "client": "FitTrack Ltd.",
+            "year": 2024,
+            "techStack": ["React Native", "Firebase", "Expo"]
+        },
+        {
+            "title": "Bloom Interiors Portfolio",
+            "description": "Showcasing interior design projects with a stylish digital presence.",
+            "link": "/projects/bloom-interiors",
+            "images": ["/images/projects/placeholder2.jpg", "/images/projects/placeholder1.jpg"],
+            "solutionCategory": "designs",
+            "moreDescription": "We created a sleek portfolio website with immersive visuals and animations to highlight Bloom’s creative projects. The design reflects their brand’s elegance and professionalism.",
+            "client": "Bloom Interiors",
+            "year": 2023,
+            "techStack": ["Figma", "Framer", "Next.js"]
+        },
+        {
+            "title": "EcoMart Digital Campaign",
+            "description": "A viral campaign that grew EcoMart’s audience by 200%.",
+            "link": "/projects/ecomart-campaign",
+            "images": ["/images/projects/placeholder2.jpg", "/images/projects/placeholder3.jpg"],
+            "solutionCategory": "digital marketing",
+            "moreDescription": "We launched a multi-channel campaign (Instagram, TikTok, and email) that significantly boosted EcoMart’s online presence. Optimized ads and content creation resulted in increased engagement and conversions.",
+            "client": "EcoMart Organic",
+            "year": 2023,
+            "techStack": ["Meta Ads", "Google Analytics", "Canva", "Hootsuite"]
+        },
+        {
+            "title": "Insight Analytics Dashboard",
+            "description": "Turning raw business data into actionable insights.",
+            "link": "/projects/insight-analytics",
+            "images": ["/images/projects/placeholder3.jpg", "/images/projects/placeholder2.jpg"],
+            "solutionCategory": "data analysis",
+            "moreDescription": "We developed a custom dashboard that visualizes key performance metrics, helping clients make smarter decisions. Features include predictive modeling and automated reporting.",
+            "client": "Insight Analytics Inc.",
+            "year": 2024,
+            "techStack": ["Python", "Pandas", "Tableau", "React"]
+        },
+        {
+            "title": "EduFlex LMS",
+            "description": "A powerful learning management system for schools and tutors.",
+            "link": "/projects/eduflex",
+            "images": ["/images/projects/placeholder1.jpg", "/images/projects/placeholder2.jpg"],
+            "solutionCategory": "web development",
+            "moreDescription": "EduFlex provides a platform for online courses, assignments, and exams. We built features like live video classes, progress tracking, and multi-role logins (students, teachers, admins).",
+            "client": "EduFlex Systems",
+            "year": 2023,
+            "techStack": ["Django", "React", "WebRTC"]
+        },
+        {
+            "title": "RideNow Taxi App",
+            "description": "On-demand ride-hailing app for a smoother commute.",
+            "link": "/projects/ridenow",
+            "images": ["/images/projects/placeholder1.jpg", "/images/projects/placeholder3.jpg"],
+            "solutionCategory": "mobile app development",
+            "moreDescription": "We built a reliable ride-hailing app with real-time driver tracking, fare estimation, secure payments, and a clean UX that ensures a smooth booking experience.",
+            "client": "RideNow Mobility",
+            "year": 2024,
+            "techStack": ["Flutter", "Firebase", "Google Maps API"]
+        },
+        {
+            "title": "Nova Branding Kit",
+            "description": "A bold visual identity system for a modern tech startup.",
+            "link": "/projects/nova-branding",
+            "images": ["/images/projects/placeholder2.jpg", "/images/projects/placeholder1.jpg"],
+            "solutionCategory": "designs",
+            "moreDescription": "We crafted a complete branding package for Nova, including logo design, typography, color palette, and social media templates. The visuals position Nova as an innovative and trustworthy brand.",
+            "client": "Nova Technologies",
+            "year": 2023,
+            "techStack": ["Illustrator", "Photoshop", "Figma"]
+        },
+        {
+            "title": "TrendBoost Marketing Suite",
+            "description": "Smart automation tools for digital marketers.",
+            "link": "/projects/trendboost",
+            "images": ["/images/projects/placeholder1.jpg", "/images/projects/placeholder2.jpg"],
+            "solutionCategory": "digital marketing",
+            "moreDescription": "TrendBoost is a SaaS platform we developed that helps marketers manage campaigns, track analytics, and schedule posts across platforms with AI-powered insights.",
+            "client": "TrendBoost",
+            "year": 2024,
+            "techStack": ["Vue.js", "Node.js", "MongoDB", "AWS"]
+        },
+        {
+            "title": "RetailVision Data Platform",
+            "description": "Data-driven insights to optimize retail performance.",
+            "link": "/projects/retailvision",
+            "images": ["/images/projects/placeholder1.jpg", "/images/projects/placeholder3.jpg"],
+            "solutionCategory": "data analysis",
+            "moreDescription": "RetailVision processes sales and inventory data to predict demand, optimize supply chains, and identify trends. The platform helped reduce waste and increase profitability.",
+            "client": "RetailVision Global",
+            "year": 2023,
+            "techStack": ["Python", "PowerBI", "Snowflake", "React"]
+        }
+    ]
+}

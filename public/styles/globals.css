@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap');
+
+@import "tailwindcss";
+
+* {
+  transition: all 0.3s ease-in-out;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --gold: #9c6c3c;
+
+  --font-primary: "Jost", sans-serif;
+  --font-secondary: "Nunito Sans", sans-serif;
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: url('/fonts/Jost-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nunito Sans';
+  src: url('/fonts/NunitoSans-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-gold: var(--gold);
+
+  --font-primary: var(--font-primary);
+  --font-secondary: var(--font-secondary);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    --gold: #9c6c3c;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Jost', sans-serif;
+}
+
+/* Custom Cursor */
+body {
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30'><circle cx='15' cy='15' r='10' fill='%239c6c3c' fill-opacity='0.7'/></svg>") 15 15, auto;
+}
+a, button {
+  cursor: pointer;
+}
+
+/* * {
+  outline: red solid 1px;
+} */
