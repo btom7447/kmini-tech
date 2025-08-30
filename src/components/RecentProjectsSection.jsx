@@ -35,7 +35,7 @@ export default function RecentProjectsSection() {
                     Have a look at our Global Projects
                 </h2>
                 <p
-                    className="mt-5 text-2xl font-light text-gray-600"
+                    className="mt-5 text-lg lg:text-2xl font-light text-gray-600"
                     data-aos="fade-down"
                     data-aos-delay="400"
                 >

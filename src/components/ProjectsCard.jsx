@@ -22,7 +22,7 @@ export default function ProjectsCard({ project }) {
                     ))}
                 </div>
                 
-                <p className="text-xl leading-loose text-gray-500 mb-5">{project.moreDescription}</p>
+                <p className="text-lg lg:text-xl leading-loose text-gray-500 mb-5">{project.moreDescription}</p>
 
                 <Link
                     href={project.link}

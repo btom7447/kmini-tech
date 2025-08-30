@@ -20,7 +20,7 @@ export default function AboutSection() {
 
     return (
         <section className="bg-white" aria-labelledby="about-heading">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-center px-5 lg:px-20 xl:px-30 py-10 lg:py-20">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-center px-5 lg:px-20 xl:px-30 py-15 lg:py-20">
                 
                 {/* Image with fade-right */}
                 <div 
@@ -67,7 +67,7 @@ export default function AboutSection() {
                         Driven by Innovation, Built for Your Success
                     </h2>
                     <p 
-                        className="mt-5 text-2xl font-light text-gray-600"
+                        className="mt-5 text-lg lg:text-2xl font-light text-gray-600"
                         data-aos="fade-down"
                         data-aos-delay="400"
                     >
