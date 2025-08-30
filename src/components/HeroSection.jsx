@@ -113,13 +113,13 @@ export default function HeroSection() {
                                     >
                                         <Link
                                             href={slide.link}
-                                            className="py-3 px-5 lg:py-5 lg:px-10 bg-gold text-white text-lg lg:text-xl hover:bg-white hover:text-gold"
+                                            className="py-3 px-5 lg:py-5 lg:px-10 bg-gold text-white text-center text-lg lg:text-xl hover:bg-white hover:text-gold"
                                         >
                                             See our work
                                         </Link>
                                         <button
                                             type="button"
-                                            className="py-3 px-5 lg:py-5 lg:px-10 text-gold text-lg lg:text-xl border-1 border-gold hover:border-white hover:text-white"
+                                            className="py-3 px-5 lg:py-5 lg:px-10 text-gold text-lg lg:text-xl text-center border-1 border-gold hover:border-white hover:text-white"
                                         >
                                             Book a Call
                                         </button>

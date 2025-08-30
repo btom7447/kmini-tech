@@ -15,7 +15,7 @@ export default function ProjectsCard({ project }) {
                     {project.techStack.map((tech, i) => (
                         <span
                             key={i}
-                            className="px-3 py-1 text-lg bg-gold border-1 border-gold text-white"
+                            className="px-3 py-1 text-sm lg:text-lg bg-gold border-1 border-gold text-white"
                         >
                             {tech}
                         </span>
@@ -26,7 +26,7 @@ export default function ProjectsCard({ project }) {
 
                 <Link
                     href={project.link}
-                    className="block w-fit mt-5 py-5 px-10 bg-gold border-1 border-gold text-white text-xl hover:bg-white hover:text-gold focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gold transition"
+                    className="block w-fit mt-5 py-3 px-5 lg:py-5 lg:px-10 bg-gold border-1 border-gold text-white text-lg lg:text-xl hover:bg-white hover:text-gold focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gold transition"
                 >
                     View Project
                 </Link>

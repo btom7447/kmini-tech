@@ -47,7 +47,7 @@ export default function SolutionsCard({ id, title, subtitle, benefits, img, link
 
             <Link
                 href={link}
-                className="block w-fit mt-5 py-5 px-10 bg-gold text-white text-xl group-hover:bg-white group-hover:text-gold focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gold"
+                className="block w-fit mt-5 py-3 px-5 lg:py-5 lg:px-10 bg-gold text-white text-lg lg:text-xl group-hover:bg-white group-hover:text-gold focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gold"
                 aria-label={`Learn more about ${title}`}
             >
                 Learn More
