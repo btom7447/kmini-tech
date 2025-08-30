@@ -94,39 +94,42 @@ export default function Header() {
 
     return (
         <div className="fixed top-0 left-0 w-full z-50">
-            <TopHeader />
-           {/* Phase 1: Transparent Header */}
-             {!showSticky && (
-        <header className="py-5 px-5 lg:px-10 lg:py-0 xl:px-30 w-full bg-transparent text-white transition-all duration-300">
-          <div className="flex justify-between items-center">
-            <Link href="/" className="px-5 flex items-center">
-              <Image
-                src="/images/logo.png"
-                alt="Kmini Tech Logo"
-                width={160}
-                height={80}
-                priority
-                className="h-20 w-40 object-contain"
-              />
-              <h1 className="-ml-7 text-2xl lg:text-4xl font-extralight">
-                Kmini Technologies
-              </h1>
-            </Link>
+            
+            {!showSticky && (
+            <>
+                <TopHeader />
+                {/* Phase 1: Transparent Header */}
+                <header className="py-5 px-5 lg:px-10 lg:py-0 xl:px-30 w-screen bg-transparent text-white transition-all duration-300">
+                    <div className="flex justify-between items-center">
+                        <Link href="/" className="px-5 flex items-center">
+                            <Image
+                                src="/images/logo.png"
+                                alt="Kmini Tech Logo"
+                                width={160}
+                                height={80}
+                                priority
+                                className="h-20 w-40 object-contain"
+                            />
+                            <h1 className="-ml-7 text-2xl lg:text-4xl font-extralight">
+                                Kmini Technologies
+                            </h1>
+                        </Link>
 
-            {/* Desktop nav */}
-            <nav>{navLinks}</nav>
+                        {/* Desktop nav */}
+                        <nav>{navLinks}</nav>
 
-            {/* Mobile Hamburger Button */}
-            <button
-              className="xl:hidden text-black"
-              onClick={() => setIsMobileMenuOpen(true)}
-              aria-label="Open menu"
-            >
-              <Menu size={28} strokeWidth={1} />
-            </button>
-          </div>
-        </header>
-      )}
+                        {/* Mobile Hamburger Button */}
+                        <button
+                            className="xl:hidden text-black"
+                            onClick={() => setIsMobileMenuOpen(true)}
+                            aria-label="Open menu"
+                        >
+                            <Menu size={28} strokeWidth={1} />
+                        </button>
+                    </div>
+                </header>
+            </>
+        )}
 
             {/* Phase 2: Solid Sticky Header */}
             <AnimatePresence>
@@ -136,7 +139,7 @@ export default function Header() {
                         animate={{ y: 0, opacity: 1 }}
                         exit={{ y: -80, opacity: 0 }}
                         transition={{ duration: 0.5 }}
-                        className="px-5 py-5 lg:px-10 lg:py-5 xl:px-30 fixed top-0 left-0 w-screen z-50 bg-white text-gray-900 shadow-md"
+                        className="px-5 py-0 lg:px-10 lg:py-5 xl:px-30 fixed top-0 left-0 w-screen z-50 bg-white text-gray-900 shadow-md"
                     >
                         <div className="flex justify-between items-center">
                             <Link href="/" className="flex items-center">

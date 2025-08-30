@@ -61,7 +61,7 @@ export default function HeroSection() {
     };
 
     return (
-        <section className="w-screen h-screen relative bg-black text-white overflow-hidden">
+        <section className="pt-70 lg:pt-0 w-screen h-screen relative bg-black text-white overflow-hidden">
             {/* Background image */}
             <div
                 className="absolute inset-0 bg-center bg-fixed bg-cover opacity-20 z-0"
