@@ -83,7 +83,7 @@ export default function PricingPlanSection() {
                 {pricingPlans.map((plan, index) => (
                     <div
                         key={index}
-                        className={`w-full group bg-white/10 backdrop-blur-sm hover:bg-white/20 p-5 lg:p-10 transition-transform duration-300 flex flex-col justify-between
+                        className={`w-full group bg-white/10 backdrop-blur-sm hover:bg-white/20 p-5 py-10 lg:p-10 transition-transform duration-300 flex flex-col justify-between
                         ${plan.name === "Growth" ? "border-t-2 border-gold" : ""}`}
                     >
                         {/* Top content */}

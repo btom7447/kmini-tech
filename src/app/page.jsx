@@ -4,6 +4,7 @@ import SolutionsSection from '../components/SolutionsSection';
 import RecentProjectsSection from '../components/RecentProjectsSection';
 import MetricsSection from '../components/MetricsSection';
 import PricingPlanSection from '../components/PricingPlanSection';
+import RequestQuoteSection from '../components/RequestQuoteSection';
 
 export default function HomePage() {
   return (
@@ -14,6 +15,7 @@ export default function HomePage() {
       <RecentProjectsSection />
       <MetricsSection />
       <PricingPlanSection />
+      <RequestQuoteSection />
     </>
   );
 }

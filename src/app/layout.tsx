@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Jost, Nunito_Sans } from "next/font/google";
 import "../../public/styles/globals.css";
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const jost = Jost({
   variable: "--font-primary",
@@ -38,6 +39,7 @@ export default function RootLayout({
         <div className="bg-white text-black">
           {children}
         </div>
+        <Footer />
       </body>
     </html>
   );
