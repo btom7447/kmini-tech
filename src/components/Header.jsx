@@ -151,7 +151,7 @@ export default function Header() {
   );
 
   return (
-    <div className="fixed top-0 left-0 w-full z-50">
+    <div className="fixed top-0 left-0 w-full z-[5000]">
       {!showSticky && (
         <>
           <TopHeader />
@@ -205,7 +205,7 @@ export default function Header() {
                   alt="Kmini Tech"
                   width={20}
                   height={20}
-                  unoptimized
+                  priority
                   className="-ml-2 h-auto w-30 lg:h-20 lg:w-40 object-contain"
                 />
                 <h5 className="-ml-5 text-2xl lg:text-4xl font-extralight">

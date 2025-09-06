@@ -1,5 +1,6 @@
 import BreadCrumb from "../../components/BreadCrumb";
 import ContactSection from "../../components/ContactSection";
+import MapSection from "../../components/MapSection";
 
 export default function ContactPage() {
     return (
@@ -8,6 +9,7 @@ export default function ContactPage() {
                 label={"Contact"} 
             />
             <ContactSection />
+            <MapSection />
         </>
     )
 }
