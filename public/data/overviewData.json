@@ -1,0 +1,39 @@
+{
+  "solutions": {
+    "designs": {
+      "overview": {
+        "title": "Creative Design Solutions",
+        "description": "Your business deserves a design that tells your story, inspires trust, and sparks action. Our design services go beyond aesthetics — we create brand identities, UI/UX interfaces, and marketing assets that elevate how customers perceive and interact with your business. Whether it’s a striking logo, a seamless app interface, or eye-catching campaign visuals, our designs are crafted to capture attention, keep users engaged, and drive measurable results. By blending creativity with strategy, we ensure your brand stands out in competitive markets and delivers experiences your audience won’t forget.",
+        "image": "/images/hero-slide/hero-four.jpg"
+      }
+    },
+    "dataAnalysis": {
+      "overview": {
+        "title": "Data Analysis Solutions",
+        "description": "Every decision your business makes should be backed by clarity, not guesswork. Our data analysis solutions empower your business to uncover hidden opportunities, identify patterns, and turn raw numbers into meaningful insights. From sales performance tracking to customer behavior analysis, we give you the tools to make smarter, faster, and more confident decisions. Imagine predicting trends before they happen, optimizing costs with precision, and creating personalized strategies that meet your customers where they are — that’s what our data analysis brings to your business. With advanced visualization dashboards and clear reports, you’ll have actionable insights at your fingertips.",
+        "image": "/images/hero-slide/hero-four.jpg"
+      }
+    },
+    "digitalMarketing": {
+      "overview": {
+        "title": "Digital Marketing Solutions",
+        "description": "Your business deserves more than just online presence — it deserves online impact. Our digital marketing solutions are designed to help you attract the right audience, build lasting relationships, and turn clicks into loyal customers. From targeted SEO that puts your business on the first page of Google to social media campaigns that connect with your audience where they spend their time, we craft strategies tailored to your goals. We don’t just run ads — we build systems that continuously engage, nurture, and convert. With our team, you’ll gain visibility, drive consistent traffic, and see measurable growth in both leads and revenue.",
+        "image": "/images/hero-slide/hero-four.jpg"
+      }
+    },
+    "mobileApps": {
+      "overview": {
+        "title": "Mobile App Development Solutions",
+        "description": "Your customers live on their phones — and your business should too. Our mobile app development solutions transform your ideas into powerful apps that connect directly with your audience. Whether you’re looking to improve customer engagement, streamline operations, or open new revenue channels, we build apps that are fast, intuitive, and scalable for both iOS and Android. From wireframes and user flows to development and app store launch, we handle the full lifecycle with a focus on seamless experiences. The result? An app that not only looks great but becomes a vital part of how your customers interact with your business.",
+        "image": "/images/hero-slide/hero-four.jpg"
+      }
+    },
+    "webDevelopment": {
+      "overview": {
+        "title": "Web Development Solutions",
+        "description": "Your website is more than a digital brochure — it’s the foundation of your business online. We build custom websites that combine performance, security, and stunning design to create an online presence your customers can trust. Whether you need a sleek landing page, a full-scale e-commerce platform, or a custom-built web application, our development process focuses on speed, scalability, and user experience. Every site we create is responsive, SEO-friendly, and tailored to your unique brand voice. With our web development solutions, your business will not just have a website, but a powerful digital asset that attracts, engages, and converts visitors.",
+        "image": "/images/hero-slide/hero-four.jpg"
+      }
+    }
+  }
+}

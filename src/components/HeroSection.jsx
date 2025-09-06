@@ -119,7 +119,7 @@ export default function HeroSection() {
                                         </Link>
                                         <button
                                             type="button"
-                                            className="py-3 px-5 lg:py-5 lg:px-10 text-gold text-lg lg:text-xl text-center border-1 border-gold hover:border-white hover:text-white"
+                                            className="py-3 px-5 lg:py-5 lg:px-10 text-gold text-lg lg:text-xl text-centerborder-1 border-gold hover:border-white hover:text-white"
                                         >
                                             Book a Call
                                         </button>

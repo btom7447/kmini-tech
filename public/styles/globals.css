@@ -15,6 +15,23 @@
   --font-secondary: "Nunito Sans", sans-serif;
 }
 
+/* Selection style */
+::selection {
+  background-color: var(--gold);
+  color: #FFFFFF;
+}
+
+::-webkit-scrollbar {
+  width: 6px !important;
+  height: 1px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  background: var(--gold);
+}
+
+
 @font-face {
   font-family: 'Jost';
   src: url('/fonts/Jost-Regular.woff2') format('woff2');

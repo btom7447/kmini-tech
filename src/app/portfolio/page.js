@@ -1,7 +1,14 @@
+import BreadCrumb from "../../components/BreadCrumb";
+import { PortfolioSection } from "../../components/PortfolioSection";
+
 export default function PortfolioPage() {
     return (
         <>
-            <h1>Portfolio Page</h1>
+            <BreadCrumb
+                label={"Portfolio"} 
+                subLabel={""}    
+            />
+            <PortfolioSection />
         </>
     )
 };

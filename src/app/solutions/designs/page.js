@@ -1,9 +1,36 @@
-export default function UiuxPage() {
-    return(
+import BreadCrumb from "../../../components/BreadCrumb";
+import solutionsData from "../../../../public/data/solutionsData.json";
+import overviewData from "../../../../public/data/overviewData.json";
+import { OverviewSection } from "../../../components/OverviewSection";
+import { BenefitsSection } from "../../../components/BenefitsSection";
+import { FAQSection } from "../../../components/FAQSection";
+import PricingPlanSection from "../../../components/PricingPlanSection";
+import TestimonialSection  from "../../../components/TestimonialSection";
+
+export default function DataAnalysisPage() {
+    const designs = solutionsData.solutions.designs;
+    const overview = overviewData.solutions.designs.overview;
+
+    return (
         <>
-            <h1>
-                Designs Page
-            </h1>
+            <BreadCrumb 
+                label={"Solutions"} 
+                subLabel={"Designs"}    
+            />
+
+            <OverviewSection overview={overview} />
+
+            <BenefitsSection 
+                benefits={designs.benefits} 
+                title="Importance of Understanding Data" 
+            />
+
+            <FAQSection 
+                faq={designs.faq} 
+                title="Design FAQs" 
+            />
+            <PricingPlanSection />
+            <TestimonialSection />
         </>
-    )
+    );
 }

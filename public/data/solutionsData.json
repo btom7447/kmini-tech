@@ -1,0 +1,284 @@
+{
+    "solutions": {
+        "designs": {
+            "overview": {
+                "title": "Creative Design Solutions",
+                "description": "Our design services focus on creating visually stunning and strategically effective designs that elevate your brand. From logos and branding to website UI/UX and marketing assets, we craft designs that not only look beautiful but also drive engagement and business growth.",
+                "image": "/images/hero-slide/hero-four.jpg"
+            },
+            "benefits": [
+                {
+                    "id": 1, 
+                    "title": "Stronger Brand Identity",
+                    "description": "A cohesive and professional design helps your business establish a recognizable brand identity, making it easier for customers to remember and trust you."
+                },
+                {
+                    "id": 2,
+                    "title": "Increased Customer Engagement",
+                    "description": "Good design grabs attention and encourages customers to spend more time exploring your products, services, or content."
+                },
+                {
+                    "id": 3, 
+                    "title": "Improved Conversion Rates",
+                    "description": "A clean, intuitive design makes it easier for users to take action, whether that’s filling out a form, making a purchase, or booking a service."
+                },
+                {
+                    "id": 4, 
+                    "title": "Competitive Advantage",
+                    "description": "Visually appealing design helps your business stand out in a crowded digital marketplace, giving you an edge over competitors with outdated visuals."
+                },
+                {
+                    "id": 5, 
+                    "title": "Consistency Across Platforms",
+                    "description": "Design ensures your brand looks professional across websites, apps, social media, and print, maintaining a seamless customer experience."
+                }
+            ],
+            "faq": [
+                {
+                    "question": "How long does a typical design project take?",
+                    "answer": "Depending on the scope, design projects can take anywhere from 1–3 weeks for branding or small design tasks, to 6–8 weeks for full-scale projects like websites or marketing campaigns."
+                },
+                {
+                    "question": "Can you redesign my existing brand or website?",
+                    "answer": "Yes, we specialize in both fresh designs and redesigns to modernize your look while maintaining brand continuity."
+                },
+                {
+                    "question": "Do you provide design files for future use?",
+                    "answer": "Absolutely. We deliver all necessary files (source files, exports, brand guidelines) so your team can use them in the future."
+                },
+                {
+                    "question": "Will my design look good on mobile devices?",
+                    "answer": "Yes. All designs are created with responsive layouts to ensure they look professional on desktops, tablets, and mobile devices."
+                },
+                {
+                    "question": "Do you also handle print design?",
+                    "answer": "Yes, we create everything from digital assets to print-ready materials like flyers, brochures, and business cards."
+                }
+            ]
+            },
+            "dataAnalysis": {
+                "overview": {
+                    "title": "Data Analysis Solutions",
+                    "description": "Our data analysis services transform raw numbers into actionable insights. We help businesses identify opportunities, optimize operations, and predict future trends through advanced analytics, reporting, and visualization tools.",
+                    "image": "/images/hero-slide/hero-four.jpg"
+                },
+                "benefits": [
+                    {
+                        "id": 1, 
+                        "title": "Better Decision Making",
+                        "description": "Turn raw data into actionable insights that help your business make smarter, evidence-based decisions."
+                    },
+                    {
+                        "id": 2, 
+                        "title": "Identify Market Opportunities",
+                        "description": "Data analysis reveals hidden patterns and opportunities in your market, helping you stay ahead of the competition."
+                    },
+                    {
+                        "id": 3, 
+                        "title": "Cost Reduction",
+                        "description": "By analyzing inefficiencies and waste, you can cut unnecessary expenses and optimize operations."
+                    },
+                    {
+                        "id": 4, 
+                        "title": "Enhanced Customer Insights",
+                        "description": "Understand customer behavior, preferences, and needs to create more personalized products and marketing campaigns."
+                    },
+                    {
+                        "id": 5, 
+                        "title": "Improved Forecasting",
+                        "description": "Data-driven forecasting helps you predict trends, demand, and risks with greater accuracy."
+                    }
+                ],
+                "faq": [
+                    {
+                        "question": "What types of data can you analyze?",
+                        "answer": "We work with customer data, sales records, financial data, marketing analytics, operational data, and more."
+                    },
+                    {
+                        "question": "How secure is my data?",
+                        "answer": "We prioritize data security and confidentiality, using encryption and secure handling practices at every step."
+                    },
+                    {
+                        "question": "Can you integrate data from multiple sources?",
+                        "answer": "Yes, we consolidate data from different platforms (CRMs, ERPs, social media, etc.) to provide a unified analysis."
+                    },
+                    {
+                        "question": "Do you provide visualization dashboards?",
+                        "answer": "Absolutely. We deliver easy-to-read dashboards and reports so your team can interact with insights in real-time."
+                    },
+                    {
+                        "question": "How long does it take to see results?",
+                        "answer": "Basic analysis projects can take 2–4 weeks, while more complex, ongoing analytics may span several months."
+                    }
+                ]
+            },
+            "digitalMarketing": {
+                "overview": {
+                    "title": "Digital Marketing Solutions",
+                    "description": "Our digital marketing services help businesses increase visibility, generate leads, and drive conversions. From SEO and social media campaigns to paid ads and email marketing, we create tailored strategies to reach the right audience at the right time.",
+                    "image": "/images/hero-slide/hero-four.jpg"
+                },
+                "benefits": [
+                    {
+                        "id": 1, 
+                        "title": "Wider Online Reach",
+                        "description": "Digital marketing ensures your business reaches customers across search engines, social media, and online platforms."
+                    },
+                    {
+                        "id": 2, 
+                        "title": "Targeted Campaigns",
+                        "description": "Unlike traditional advertising, digital marketing allows you to target specific audiences based on demographics, interests, and behaviors."
+                    },
+                    {
+                        "id": 3, 
+                        "title": "Measurable Results",
+                        "description": "Track engagement, conversions, and ROI in real time to ensure your campaigns are delivering value."
+                    },
+                    {
+                        "id": 4, 
+                        "title": "Stronger Brand Awareness",
+                        "description": "Consistent digital campaigns help your brand stay top-of-mind with potential customers."
+                    },
+                    {
+                        "id": 5, 
+                        "title": "Higher Sales & ROI",
+                        "description": "Optimized campaigns lead to more conversions, ultimately increasing sales and return on investment."
+                    }
+                ],
+                "faq": [
+                    {
+                        "question": "Which digital marketing channels do you cover?",
+                        "answer": "We handle SEO, social media marketing, paid ads (Google & Meta), email marketing, and content strategy."
+                    },
+                    {
+                        "question": "How do you measure campaign success?",
+                        "answer": "We track KPIs like traffic, engagement, lead generation, conversions, and ROI."
+                    },
+                    {
+                        "question": "Do you work with small businesses?",
+                        "answer": "Yes, we create scalable strategies for startups, SMEs, and large enterprises."
+                    },
+                    {
+                        "question": "How long before I see results?",
+                        "answer": "SEO can take 3–6 months to show strong results, while paid ads often show immediate impact."
+                    },
+                    {
+                        "question": "Do you create content for campaigns?",
+                        "answer": "Yes, we produce ad creatives, social posts, blog content, and marketing assets tailored to your campaigns."
+                    }
+                ]
+            },
+            "mobileApps": {
+                "overview": {
+                    "title": "Mobile App Development Solutions",
+                    "description": "We build custom mobile applications that bring your ideas to life on iOS and Android. From concept and design to development and deployment, our apps are built to provide seamless user experiences and scalable business value.",
+                    "image": "/images/hero-slide/hero-four.jpg"
+                },
+                "benefits": [
+                    {
+                        "id": 1, 
+                        "title": "Direct Customer Engagement",
+                        "description": "Apps create a direct channel to customers, allowing businesses to engage with them through push notifications and personalized experiences."
+                    },
+                    {
+                        "id": 2, 
+                        "title": "Increased Customer Loyalty",
+                        "description": "A well-built app encourages repeat usage and strengthens brand loyalty."
+                    },
+                    {
+                        "id": 3, 
+                        "title": "Scalable Business Operations",
+                        "description": "Mobile apps streamline workflows, automate processes, and scale operations as your business grows."
+                    },
+                    {
+                        "id": 4, 
+                        "title": "Competitive Edge",
+                        "description": "Having a professional app sets you apart in industries where mobile presence is crucial."
+                    },
+                    {
+                        "id": 5, 
+                        "title": "Revenue Growth",
+                        "description": "Apps open up new revenue streams through subscriptions, ads, or e-commerce."
+                    }
+                ],
+                "faq": [
+                    {
+                        "question": "Which platforms do you develop for?",
+                        "answer": "We build apps for both iOS and Android, using native and cross-platform technologies depending on client needs."
+                    },
+                    {
+                        "question": "How long does it take to build an app?",
+                        "answer": "On average, small apps take 2–3 months, while complex apps can take 6–9 months or longer."
+                    },
+                    {
+                        "question": "Do you handle app store submission?",
+                        "answer": "Yes, we manage the publishing process for both Apple App Store and Google Play Store."
+                    },
+                    {
+                        "question": "Can you update and maintain my app after launch?",
+                        "answer": "Absolutely. We provide ongoing maintenance, updates, and new feature development."
+                    },
+                    {
+                        "question": "How much does mobile app development cost?",
+                        "answer": "Costs vary based on features, complexity, and platform. We provide tailored quotes after consultation."
+                    }
+                ]
+            },
+            "webDevelopment": {
+            "overview": {
+                "title": "Web Development Solutions",
+                "description": "Our web development services focus on creating fast, secure, and scalable websites that reflect your brand and deliver results. Whether you need a business website, an e-commerce store, or a custom platform, we build with user experience and performance in mind.",
+                "image": "/images/hero-slide/hero-four.jpg"
+            },
+            "benefits": [
+                {
+                    "id": 1, 
+                    "title": "Professional Online Presence",
+                    "description": "A custom website ensures your brand looks professional and credible to potential customers."
+                },
+                {
+                    "id": 2, 
+                    "title": "User-Friendly Experience",
+                    "description": "Optimized layouts and responsive design improve navigation, keeping visitors engaged longer."
+                },
+                {
+                    "id": 3, 
+                    "title": "SEO Advantage",
+                    "description": "Well-built websites rank higher on search engines, driving more organic traffic."
+                },
+                {
+                    "id": 4, 
+                    "title": "Scalability & Flexibility",
+                    "description": "Your website can grow with your business, from a simple landing page to a complex e-commerce platform."
+                },
+                {
+                    "id": 5, 
+                    "title": "Increased Conversions",
+                    "description": "A strategically designed website leads users towards key actions like sign-ups, purchases, or bookings."
+                }
+            ],
+            "faq": [
+                {
+                    "question": "Do you build custom websites or use templates?",
+                    "answer": "We primarily build custom websites tailored to your needs, but can also use templates for faster, cost-effective solutions."
+                },
+                {
+                    "question": "Will my website be mobile-friendly?",
+                    "answer": "Yes, all websites are responsive and optimized for desktops, tablets, and smartphones."
+                },
+                {
+                    "question": "Can you integrate e-commerce features?",
+                    "answer": "Absolutely. We build full e-commerce stores with payment gateways, product management, and order tracking."
+                },
+                {
+                    "question": "How long does it take to develop a website?",
+                    "answer": "Basic websites take 4–6 weeks, while larger, feature-rich sites may take 8–12 weeks or more."
+                },
+                {
+                    "question": "Do you offer website maintenance?",
+                    "answer": "Yes, we provide ongoing support, security updates, and performance optimization."
+                }
+            ]
+        }
+    }
+}
