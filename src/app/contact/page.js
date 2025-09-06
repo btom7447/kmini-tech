@@ -1,7 +1,13 @@
+import BreadCrumb from "../../components/BreadCrumb";
+import ContactSection from "../../components/ContactSection";
+
 export default function ContactPage() {
     return (
         <>
-            <h1>Contact Page</h1>
+            <BreadCrumb
+                label={"Contact"} 
+            />
+            <ContactSection />
         </>
     )
-};
+}
